@@ -10,7 +10,6 @@ export default [
       require(['@/views/home'], resolve)
     }
   },
-
   page1,
 
   page2,
