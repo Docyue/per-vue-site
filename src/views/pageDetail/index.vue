@@ -1,10 +1,10 @@
 <template>
   <div>
-    worlda
+    page2
   </div>
 </template>
 <script>
 export default {
-  name: 'world'
+  name: 'pageDetail'
 }
 </script>

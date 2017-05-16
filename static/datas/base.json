@@ -1,0 +1,66 @@
+{
+	"lineData":[
+		{
+			"time": 2017,
+			"action": "采用新框架，重构网站！"
+		},
+		{
+			"time": 2016,
+			"action": "新增旅游照片墙"
+		},
+		{
+			"time": 2015,
+			"action": "新增美文鉴赏"
+		},
+		{
+			"time": 2014,
+			"action": "网站迁移，重构，从域名docyue.com迁移到pernav.com"
+		}
+	],
+	"infoData":[
+		{
+			"title": "昵称",
+			"content": "魔都小王子"
+		},
+		{
+			"title": "常用英文名",
+			"content": "Ace（艾斯）"
+		},
+		{
+			"title": "常出没地",
+			"content": "上海，杭州等地"
+		},
+		{
+			"title": "常出没论坛",
+			"content": "知乎，果壳，简书等"
+		},
+		{
+			"title": "兴趣爱好",
+			"content": "爱家中贤妻，吃货一枚（川菜，日料，烤肉，龙虾一样都不能少。。。。。）同时爱追剧（日剧，美剧，韩剧等），爱动漫（火影，海贼等），爱运动，爱旅游，爱狗，爱一切可爱的东西。。。。。"
+		},
+		{
+			"title": "这些地方可以找到我，关注一下吧",
+			"content": [
+				{
+					"subTitle": "weibo",
+					"subContent": "http://weibo.com/1231495297"
+				},
+				{
+					"subTitle": "GitHub",
+					"subContent": "https://github.com/Docyue"
+				},
+				{
+					"subTitle": "weiChart/QQ",
+					"subContent": "这个还是保密吧..."
+				}
+			]
+		}
+	],
+	"artListData": [
+		{
+			"title": "文章一",
+			"date": "2017-5-16",
+			"artId": "1"
+		}
+	]
+}

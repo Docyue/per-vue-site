@@ -1,6 +1,7 @@
 // 不同功能模块的路由应代码分离
-import page1 from './page1'
-import page2 from './page2'
+import pageFirst from './pageFirst'
+import pageSecond from './pageSecond'
+import pageDetail from './pageDetail'
 
 export default [
   {
@@ -10,10 +11,9 @@ export default [
       require(['@/views/home'], resolve)
     }
   },
-  page1,
-
-  page2,
-
+  pageFirst,
+  pageSecond,
+  pageDetail,
   { // 404 置后
     path: '*',
     component: {
