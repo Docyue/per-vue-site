@@ -1,10 +1,14 @@
 import axios from 'axios'
 import {
-  timeLineData
+  baseDataUrl,
+  listDataUrl
 } from './resource'
 
 export default {
-  getTimeLineData () {
-    return axios.get(timeLineData)
+  getBaseData () {
+    return axios.get(baseDataUrl)
+  },
+  getListData () {
+    return axios.get(listDataUrl)
   }
 }

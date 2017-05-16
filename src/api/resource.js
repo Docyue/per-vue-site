@@ -1,4 +1,6 @@
 var apiPernav = {
-  timeLine: 'static/datas/base.json'
+  baseDataUrl: 'static/datas/base.json',
+  listDataUrl: 'static/datas/listData.json'
 }
-export const timeLineData = apiPernav.timeLine
+export const baseDataUrl = apiPernav.baseDataUrl
+export const listDataUrl = apiPernav.listDataUrl

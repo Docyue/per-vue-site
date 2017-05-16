@@ -1,8 +1,7 @@
 <template>
 		<ul class="art-list">
-      <li v-for="item in artListData" @click="goDetail(item.artId)">
+      <li class="clearfix" v-for="item in topListData" @click="goDetail(item)">
         <span class="title">{{item.title}}</span>
-        <i class="line"></i>
         <span class="content">
           {{item.date}}
         </span>
@@ -11,13 +10,14 @@
 </template>
 <script>
 export default {
-  props: ['artListData'],
+  props: ['topListData'],
   methods: {
-    goDetail (id) {
+    goDetail (data) {
       this.$router.push({
         path: 'pageDetail',
         query: {
-          id: id
+          id: data.artId,
+          type: data.artType
         }
       })
     }
@@ -27,4 +27,5 @@ export default {
 <style type="text/css">
   .art-list{position: relative;height: 100px;color: #ccc;}
   .art-list .content{float: right;}
+  .art-list .title{float: left;}
 </style>

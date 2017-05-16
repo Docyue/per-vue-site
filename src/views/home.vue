@@ -3,7 +3,7 @@
 	   <section class="main-box">
 	       <h2 class="main-header">好文列表</h2>
 	        <div class="main-detail">
-	        	<artListCard :artListData="artListData"></artListCard>
+	        	<topListCard :topListData="topListData"></topListCard>
 	        </div>
 	    </section>
 	    <section class="main-box">
@@ -23,7 +23,7 @@
 </template>
 <script>
 import api from '../api/index.js'
-import artListCard from './common/artListCard'
+import topListCard from './common/topListCard'
 import timeLineCard from '../components/common/timeLineCard'
 import selfInfoCard from '../components/common/selfInfoCard'
 
@@ -32,23 +32,23 @@ export default {
   components: {
     timeLineCard,
     selfInfoCard,
-    artListCard
+    topListCard
   },
   data () {
     return {
-      artListData: [],
+      topListData: [],
       timeLineData: [],
       infoData: []
     }
   },
   mounted () {
-    this.getTimeLine()
+    this.getBaseData()
   },
   methods: {
-    getTimeLine () {
+    getBaseData () {
       let vue = this
-      api.getTimeLineData().then(function (data) {
-        vue.artListData = data.data.artListData
+      api.getBaseData().then(function (data) {
+        vue.topListData = data.data.topListData
         vue.timeLineData = data.data.lineData
         vue.infoData = data.data.infoData
         console.log(data)
