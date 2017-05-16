@@ -1,0 +1,7 @@
+.header-content {margin: 30px 30px 0 30px;}
+.header-item{display: inline-block;padding:5px 15px;margin:0 15px;}
+.header-item:hover{text-decoration: none;color: #bbb;}
+.header-item:focus{text-decoration: none;color: #ccc;border-bottom: 1px solid #ccc;}
+.header-item:active{text-decoration: none;color: #ccc;border-bottom: 1px solid #ccc;}
+/* section部分 */
+.content-section{padding: 15px 30px;}
