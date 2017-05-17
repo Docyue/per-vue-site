@@ -2,10 +2,8 @@
 .header-item{display: inline-block;padding:5px 15px;margin:0 15px;}
 .header-item:first-child{margin: 0; padding: 0;}
 .header-item:hover{text-decoration: none;color: #bbb;}
-.header-item:focus{text-decoration: none;color: #ccc;border-bottom: 1px solid #ccc;}
-.header-item:active{text-decoration: none;color: #ccc;border-bottom: 1px solid #ccc;}
-.header-item:first-child:focus{text-decoration: none;border-bottom: none; color:#337ab7;}
-.header-item:first-child:active{text-decoration: none;border-bottom: none; color:#337ab7;}
+.header-item:focus{text-decoration: none;}
+.header-item:active{text-decoration: none;}
 /* section部分 */
 .content-section{padding: 15px 30px;max-width: 1440px;}
 .main-box{padding: 0 0 60px 0;margin:15px 0 0 0;width: 90%;}
