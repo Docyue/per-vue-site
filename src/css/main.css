@@ -7,7 +7,7 @@
 .header-item:first-child:focus{text-decoration: none;border-bottom: none; color:#337ab7;}
 .header-item:first-child:active{text-decoration: none;border-bottom: none; color:#337ab7;}
 /* section部分 */
-.content-section{padding: 15px 30px;}
+.content-section{padding: 15px 30px;max-width: 1440px;}
 .main-box{padding: 0 0 60px 0;margin:15px 0 0 0;width: 90%;}
 .main-box .main-header{border-bottom: 1px solid #ccc;text-indent: 1em; width: 100%; color:#3e3e3e; font-size: 16px;line-height: 1.6;margin:0 0 10px 0;}
 .main-box .main-detail{color:#ccc;padding: 0 0 0 1em;}

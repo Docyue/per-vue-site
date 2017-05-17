@@ -1,5 +1,5 @@
 /* －－－－－ 模块 resetCss－－ start －－ －－－－－－ */
-body, button, input, select, textarea { font: 400 14px/1.8 "Microsoft YaHei", Arial, "Lucida Grande", Verdana; }
+body, button, input, select, textarea { font: 400 14px/1.8 'Open Sans', Arial, sans-serif; }
 html { -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -moz-user-select: none; }
 input, button { border: none; outline: none; }
 html { font-family: "Microsoft YaHei"; }

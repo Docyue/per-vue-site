@@ -16,8 +16,8 @@ export default {
       this.$router.push({
         path: 'pageDetail',
         query: {
-          id: data.artId,
-          type: data.artType
+          id: data.id,
+          type: data.type
         }
       })
     }

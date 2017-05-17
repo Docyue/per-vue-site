@@ -23,6 +23,7 @@
 </template>
 <script>
 import api from '../api/index.js'
+// 组件
 import topListCard from './common/topListCard'
 import timeLineCard from '../components/common/timeLineCard'
 import selfInfoCard from '../components/common/selfInfoCard'
