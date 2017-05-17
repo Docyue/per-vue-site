@@ -23,7 +23,6 @@ export default {
       let vue = this
       api.getListData().then(function (data) {
         vue.picCardData = data.data.pageSecondListData
-        console.log(data)
       })
     }
   }

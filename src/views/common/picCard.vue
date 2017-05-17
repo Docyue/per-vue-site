@@ -4,7 +4,7 @@
       <div class="show-box">
         <img class="item-img" :src="item.picUrl" alt="">
       </div>
-      <h2 class="item-title clearfix">{{item.title}} <span class="item-date">{{item.date}}</span></h2>
+      <h2 class="item-head clearfix">{{item.head}} <span class="item-date">{{item.date}}</span></h2>
       <p class="item-excerpt">
         {{item.excerpt}}
       </p>
@@ -33,8 +33,8 @@ export default {
   .pic-item .show-box{width: 400px; height: 230px;overflow: hidden;}
   .pic-item .show-box:hover .item-img {transform: scale(1.1);-webkit-filter: brightness(60%);}
   .pic-item .item-img{border-radius: 3px;-webkit-backface-visibility: hidden;transition: 0.6s all ease;z-index: 0; }
-  .pic-item .item-title{overflow: hidden;text-overflow: ellipsis;font-size: 18px;margin: 10px 0;font-weight: bold;}
-  .pic-item .item-title .item-date{float: right; display: inline-block;color:#fff; background: rgba(0, 11, 14, 0.65);height: 16px;line-height: 17px; padding: 0 10px;border-radius: 16px;font-size: 12px;}
+  .pic-item .item-head{overflow: hidden;text-overflow: ellipsis;font-size: 18px;margin: 10px 0;font-weight: bold;}
+  .pic-item .item-head .item-date{float: right; display: inline-block;color:#fff; background: rgba(0, 11, 14, 0.65);height: 16px;line-height: 17px; padding: 0 10px;border-radius: 16px;font-size: 12px;}
   .pic-item .item-excerpt{font-size: 14px;}
   @media screen and (max-width: 767px){
     .pic-item { width: 48%;}

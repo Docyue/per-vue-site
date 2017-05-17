@@ -52,7 +52,6 @@ export default {
         vue.topListData = data.data.topListData
         vue.timeLineData = data.data.lineData
         vue.infoData = data.data.infoData
-        console.log(data)
       })
     }
   }

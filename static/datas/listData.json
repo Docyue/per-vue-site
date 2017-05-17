@@ -3,7 +3,7 @@
 		{
 			"date": "2017-5-16",
 			"id": "1",
-			"title": "文章一"
+			"head": "文章一"
 		}
 	],
 	"pageSecondListData": [
@@ -11,7 +11,7 @@
 			"date": "2017-5-16",
 			"type": "2",
 			"id": "1",
-			"title": "hahha文章二 ",
+			"head": "hahha文章二 ",
 			"picUrl": "http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
 			"excerpt": "一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大;很多人..."
 		},
@@ -19,7 +19,7 @@
 			"date": "2017-5-16",
 			"type": "2",
 			"id": "2",
-			"title": "hahha文章二 ",
+			"head": "hahha文章二 ",
 			"picUrl": "http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
 			"excerpt": "一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大;很多人..."
 		},
@@ -27,7 +27,7 @@
 			"date": "2017-5-16",
 			"type": "2",
 			"id": "3",
-			"title": "hahha文章二 ",
+			"head": "hahha文章二 ",
 			"picUrl": "http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
 			"excerpt": "一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大;很多人..."
 		},
@@ -35,7 +35,7 @@
 			"date": "2017-5-16",
 			"type": "2",
 			"id": "4",
-			"title": "hahha文章二 ",
+			"head": "hahha文章二 ",
 			"picUrl": "http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
 			"excerpt": "一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大;很多人..."
 		},
@@ -43,7 +43,7 @@
 			"date": "2017-5-16",
 			"type": "2",
 			"id": "5",
-			"title": "hahha文章二 ",
+			"head": "hahha文章二 ",
 			"picUrl": "http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
 			"excerpt": "一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大;很多人..."
 		}

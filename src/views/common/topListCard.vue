@@ -1,7 +1,7 @@
 <template>
 		<ul class="art-list">
       <li class="clearfix" v-for="item in topListData" @click="goDetail(item)">
-        <span class="title">{{item.title}}</span>
+        <span class="head">{{item.head}}</span>
         <span class="content">
           {{item.date}}
         </span>
@@ -27,5 +27,5 @@ export default {
 <style type="text/css">
   .art-list{position: relative;height: 100px;color: #ccc;}
   .art-list .content{float: right;}
-  .art-list .title{float: left;}
+  .art-list .head{float: left;}
 </style>
