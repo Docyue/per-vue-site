@@ -2,8 +2,15 @@
 	"pageFirstListData": [
 		{
 			"date": "2017-5-16",
+			"type": "1",
 			"id": "1",
 			"head": "文章一"
+		},
+		{
+			"date": "2017-5-16",
+			"type": "2",
+			"id": "2",
+			"head": "文章ererererer"
 		}
 	],
 	"pageSecondListData": [
