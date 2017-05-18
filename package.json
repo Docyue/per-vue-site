@@ -12,6 +12,7 @@
     "url": "https://github.com/kenberkeley/vue2-scaffold.git"
   },
   "dependencies": {
+    "axios": "^0.16.1",
     "vue": "^2.2.2",
     "vue-router": "^2.2.0"
   },
