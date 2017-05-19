@@ -1,10 +1,11 @@
 <template>
   <section class="pageDetail">
-    <div v-if="queryData.type == 1">
-      第一种
-    </div>
+    <artDetailCard 
+      v-if="queryData.type == 1 || queryData.type == 3"
+      :artDetailData="artDetailData">
+    </artDetailCard>
     <picDetailCard 
-      v-if="queryData.type == 2" 
+      v-if="queryData.type == 2 " 
       :picDetailData="picDetailData">
     </picDetailCard>  
   </section>
@@ -13,36 +14,50 @@
 import api from '../../api/index.js'
 // 组件
 import picDetailCard from '../common/picDetailCard'
+import artDetailCard from '../common/artDetailCard'
 
 export default {
   name: 'pageDetail',
   components: {
-    picDetailCard
+    picDetailCard,
+    artDetailCard
   },
   mounted () {
     this.getPicDetailData()
+    this.getArtDetailData()
   },
   data () {
     return {
       queryData: {},
-      picDetailData: {}
+      picDetailData: {},
+      artDetailData: {}
     }
   },
   methods: {
     getPicDetailData () {
       let vue = this
-      vue.queryData = vue.$route.query
       api.getPicDetailData().then(function (data) {
         vue.updateData(data.data.picDetailData)
       })
     },
     updateData (data) {
       let vue = this
+      vue.queryData = vue.$route.query
       for (var i = 0; i < data.length; i++) {
         if (data[i].id === vue.queryData.id) {
-          vue.picDetailData = data[i]
+          if (vue.queryData.type === 2) {
+            vue.picDetailData = data[i]
+          } else {
+            vue.artDetailData = data[i]
+          }
         }
       };
+    },
+    getArtDetailData () {
+      let vue = this
+      api.getArtDetailData().then(function (data) {
+        vue.updateData(data.data.artDetailData)
+      })
     }
   }
 }

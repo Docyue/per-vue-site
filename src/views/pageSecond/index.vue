@@ -23,6 +23,9 @@ export default {
       let vue = this
       api.getListData().then(function (data) {
         vue.picCardData = data.data.pageSecondListData
+        for (var i = 0; i < vue.picCardData.length; i++) {
+          vue.picCardData[i]['excerpt'] = vue.picCardData[i]['excerpt'].slice(0, 50) + '.....'
+        };
       })
     }
   }
