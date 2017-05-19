@@ -45,7 +45,7 @@ export default {
       vue.queryData = vue.$route.query
       for (var i = 0; i < data.length; i++) {
         if (data[i].id === vue.queryData.id) {
-          if (vue.queryData.type === 2) {
+          if (Number(vue.queryData.type) === 2) {
             vue.picDetailData = data[i]
           } else {
             vue.artDetailData = data[i]
