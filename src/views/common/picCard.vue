@@ -28,7 +28,7 @@ export default {
 }
 </script>
 <style type="text/css">
-  .pic-item{display:  inline-block; margin:0 1% 30px 0;min-width: 200px;width: 32%;max-width: 400px;}
+  .pic-item{display:  inline-block; margin:0 6% 20px 0;min-width: 200px;width: 32%;max-width: 400px;}
   .pic-item:nth-child(3n){margin-right: 0;}
   .pic-item .show-box{width: 400px; height: 230px;overflow: hidden;}
   .pic-item .show-box:hover .item-img {transform: scale(1.1);-webkit-filter: brightness(60%);}

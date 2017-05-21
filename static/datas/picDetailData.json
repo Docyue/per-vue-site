@@ -1,30 +1,6 @@
 {
 	"picDetailData": [
 		{
-			"date": "2014的记录",
-			"type": "2",
-			"id": "1",
-			"head": "时间——2014的那段记忆 ",
-			"content": [
-				{
-					"pic": [
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg",
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg"
-					],
-					"description":"经常有人问如何有效的忘记一个人？有一种说法是时间，时间可以让人忘记一切，其实什么都不会忘，只是不再提起。。。。"
-				},
-				{
-					"pic": [
-						"http://www.pernav.com/wp-content/uploads/2015/12/23047062480_1c26cb84ac_c-400x275.jpg"
-					],
-					"description":"一直在谈日本，谈文化，谈动漫，谈恐怖电影，谈女优，但是真正深入了解过后，你才会发现你的价值观中的日本和真正的日本差别有多大"
-				}
-			]
-		},
-		{
 			"date": "2015某月",
 			"type": "2",
 			"id": "3",

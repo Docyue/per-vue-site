@@ -2,7 +2,8 @@ import axios from 'axios'
 import {
   baseDataUrl,
   listDataUrl,
-  picDetailDataUrl
+  picDetailDataUrl,
+  artDetailDataUrl
 } from './resource'
 
 export default {
@@ -14,5 +15,8 @@ export default {
   },
   getPicDetailData () {
     return axios.get(picDetailDataUrl)
+  },
+  getArtDetailData () {
+    return axios.get(artDetailDataUrl)
   }
 }
