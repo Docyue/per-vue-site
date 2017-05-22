@@ -1,6 +1,7 @@
 <template>
 	<div>
 	  <headerCard></headerCard>
+    <p>{{actTitle}}</p>
 	  <section class="content-section">
 	  	 <router-view></router-view>
 	  </section>
@@ -15,12 +16,12 @@ export default {
   components: {
     headerCard
   },
-  updated () {
-    this.setTitle()
-  },
-  methods: {
-    setTitle () {
-      console.log('aa')
+  computed: {
+    actTitle () {
+      let titleData = this.$store.state.titleData
+      let len = parseInt(Math.random() * titleData.length) > 0 ? parseInt(Math.random() * titleData.length) : 0
+      let actTitle = titleData[len]
+      document.title = actTitle
     }
   }
 }

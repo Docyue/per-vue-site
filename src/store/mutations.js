@@ -5,8 +5,8 @@ import {
 export default {
   // 记录当前页面title
   [RECORD_TITLE] (state, {
-    actTitle
+    titleData
   }) {
-    state.actTitle = actTitle
+    state.titleData = titleData
   }
 }
