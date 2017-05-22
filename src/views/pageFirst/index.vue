@@ -1,5 +1,5 @@
 <template>
-  <ul class="art-list">
+  <ul class="first-page-list">
   	<li v-for="item in artListdata" class="clearfix" @click="goDetail(item)">
       <span class="fl head">[{{item.tag}}]</span>
   		<span class="item-left">{{item.head}}</span>
@@ -39,8 +39,8 @@ export default {
 }
 </script>
 <style type="text/css">
-  .art-list li {color:#aaa;}
-	.art-list li .head{color:#9a9a9a;font-weight: bold;}
-	.art-list .item-left{float: left;display: inline-block;width: 80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin:0 0 0 3px;}
-	.art-list .item-right{}
+  .first-page-list li {color:#aaa;}
+	.first-page-list li .head{color:#9a9a9a;font-weight: bold;}
+	.first-page-list .item-left{float: left;display: inline-block;width: 80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin:0 0 0 3px;}
+	.first-page-list .item-right{}
 </style>
