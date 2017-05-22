@@ -14,6 +14,14 @@ export default {
   name: 'App',
   components: {
     headerCard
+  },
+  updated () {
+    this.setTitle()
+  },
+  methods: {
+    setTitle () {
+      console.log('aa')
+    }
   }
 }
 </script>
