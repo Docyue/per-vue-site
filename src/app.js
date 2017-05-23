@@ -1,5 +1,6 @@
 /* 启动文件 */
 import Vue from 'vue'
+import store from '@/store/'
 import router from '@/routes/'
 import App from '@/components/App'
 
@@ -7,6 +8,7 @@ import App from '@/components/App'
 new Vue({
   el: '#app',
   router,
+  store,
   render: h => h(App)
 })
 

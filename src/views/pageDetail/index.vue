@@ -22,9 +22,12 @@ export default {
     picDetailCard,
     artDetailCard
   },
-  mounted () {
-    this.getPicDetailData()
-    this.getArtDetailData()
+  created () {
+    if (Number(this.$route.query.type) === 2) {
+      this.getPicDetailData()
+    } else {
+      this.getArtDetailData()
+    }
   },
   data () {
     return {
