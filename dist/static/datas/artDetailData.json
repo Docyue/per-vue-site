@@ -41,6 +41,14 @@
 			"id": "6",
 			"head": "南奎丽",
 			"content": "<img src=\"http://farm9.staticflickr.com/8222/8422333274_d62b81e5db_z.jpg\" />"
+		},
+		{
+			"date": "2013画报",
+			"type": "3",
+			"id": "7",
+			"head": "少女时代林允儿",
+			"content": "<img src=\"http://farm9.staticflickr.com/8051/8422346646_546e35bbc2_z.jpg\"  alt=\"2013年1月28日\">
+			<img src=\"http://farm9.staticflickr.com/8374/8422356860_e3f12d39b8_z.jpg\" alt=\"2013年1月28日two\">"
 		}
 	]
 }
