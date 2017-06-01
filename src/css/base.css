@@ -1,5 +1,5 @@
 /* －－－－－ 模块 resetCss－－ start －－ －－－－－－ */
-body, button, input, select, textarea { font: 400 14px/1.8 'Open Sans', Arial, sans-serif; }
+body, button, input, select, textarea { font: 400 14px/1.8  "Lucida Grande"," Lucida Sans Unicode"," Hiragino Sans GB"," WenQuanYi Micro Hei", Verdana, "Aril", sans-serif; }
 html { -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; -moz-user-select: none; }
 input, button { border: none; outline: none; }
 html { font-family: "Microsoft YaHei"; }
@@ -45,4 +45,6 @@ button, input[type=button] { overflow: visible; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 .hidden { display: none !important; }
+.fl{float: left;}
+.fr{float: right;}
 /* －－－－－ 模块 resetCss－－ end －－ －－－－－－ */

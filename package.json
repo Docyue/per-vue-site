@@ -1,11 +1,11 @@
 {
   "name": "vue2-scaffold",
   "description": "The best scaffold for Vue 2.x",
-  "author": "Ken Berkeley <kenberkeley@foxmail.com>",
+  "author": "pernav <442497994@qq.com>",
   "version": "2.0.0",
   "scripts": {
-    "start": "cross-env NODE_ENV=development node build/dev.js",
-    "build": "cross-env NODE_ENV=production node build/prod.js"
+    "start": "cross-env NODE_ENV=production  node build/dev.js",
+    "build": "cross-env NODE_ENV=development node build/prod.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
   "dependencies": {
     "axios": "^0.16.1",
     "vue": "^2.2.2",
-    "vue-router": "^2.2.0"
+    "vue-router": "^2.2.0",
+    "vuex": "^2.3.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

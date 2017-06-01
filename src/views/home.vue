@@ -22,6 +22,7 @@
 	</div>
 </template>
 <script>
+import {mapState} from 'vuex'
 import api from '../api/index.js'
 // 组件
 import topListCard from './common/topListCard'
@@ -42,6 +43,11 @@ export default {
       infoData: []
     }
   },
+  computed: {
+    ...mapState([
+      'titleData'
+    ])
+  },
   mounted () {
     this.getBaseData()
   },
@@ -52,6 +58,7 @@ export default {
         vue.topListData = data.data.topListData
         vue.timeLineData = data.data.lineData
         vue.infoData = data.data.infoData
+        vue.$store.state.titleData = data.data.titleData
       })
     }
   }

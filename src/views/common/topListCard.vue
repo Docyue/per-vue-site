@@ -25,7 +25,8 @@ export default {
 }
 </script>
 <style type="text/css">
-  .art-list{position: relative;height: 100px;color: #ccc;}
+  .art-list{position: relative;height: 100px;color: #666;}
   .art-list .content{float: right;}
   .art-list .head{float: left;}
+  .art-list li:hover{color:#999;}
 </style>
