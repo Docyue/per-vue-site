@@ -47,8 +47,14 @@
 			"type": "3",
 			"id": "7",
 			"head": "少女时代林允儿",
-			"content": "<img src=\"http://farm9.staticflickr.com/8051/8422346646_546e35bbc2_z.jpg\"  alt=\"2013年1月28日\">
-			<img src=\"http://farm9.staticflickr.com/8374/8422356860_e3f12d39b8_z.jpg\" alt=\"2013年1月28日two\">"
+			"content": "<img src=\"http://farm9.staticflickr.com/8051/8422346646_546e35bbc2_z.jpg\" /><img src=\"http://farm9.staticflickr.com/8374/8422356860_e3f12d39b8_z.jpg\" />"
+		},
+		{
+			"date": "2013画报",
+			"type": "3",
+			"id": "8",
+			"head": "王珞丹",
+			"content": "<img src=\"http://farm9.staticflickr.com/8214/8425713912_3b3bf1c1f4_z.jpg\"  alt=\"2013年1月29日\" />"
 		}
 	]
 }
